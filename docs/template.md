@@ -1,6 +1,6 @@
 # Template
 
-Template author: Tianlin Xiao, Yikai Cui.
+Template author: Tianlin Xiao.
 
 ##  Definition
 
