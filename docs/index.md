@@ -1,17 +1,7 @@
-# Welcome to MkDocs
+# Hello!
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to this blog and [open GitHub repository](https://github.com/TrickEye/undefinedBehaviors) for Analysis of Undefined Behaviors in C, work jointly done in Spring, 2023, by a group of students from BUAA, under guidance of [Prof. Wenge Rong](https://wgrong.github.io/).
 
-## Commands
+# More coming!
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.

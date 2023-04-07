@@ -1,1 +1,53 @@
-site_name: My Docs
+site_name: Undefined Behaviors in C
+site_url: https://trickeye.github.io/undefinedBehaviors/
+repo_url: https://github.com/TrickEye/undefinedBehaviors
+repo_name: undefinedBehaviors
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.annotate
+    - search.suggest
+    - navigation.instant
+    - navigation.tracking
+
+plugins:
+  - tags:
+
+
+markdown_extensions:
+  - toc:
+      permalink: ⚓︎
+      permalink_title: link to this position
+  - pymdownx.arithmatex:
+      generic: true
+  - attr_list
+  - def_list
+  - md_in_html
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - footnotes
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - abbr
+  - pymdownx.snippets
+  - pymdownx.betterem
+  - pymdownx.keys
+  - pymdownx.highlight:
+      anchor_linenums: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js  
