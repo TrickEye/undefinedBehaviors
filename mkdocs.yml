@@ -10,6 +10,7 @@ theme:
     - navigation.sections
     - navigation.top
     - content.code.annotate
+    - content.tabs.link
     - search.suggest
     - navigation.instant
     - navigation.tracking
