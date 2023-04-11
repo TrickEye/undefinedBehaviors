@@ -536,7 +536,7 @@
 <h1 id="ub21">UB21<a class="headerlink" href="#ub21" title="link to this position">⚓︎</a></h1>
 <p>Author: Yikai Cui.</p>
 <h2 id="definition">Definition<a class="headerlink" href="#definition" title="link to this position">⚓︎</a></h2>
-<p><strong>An lvalue having array type is converted to a pointer to the initial element of the array, and the array object has register storage class</strong></p>
+<p><strong>An lvalue having array type is converted to a pointer to the initial element of the array, and the array object has register storage class (6.3.2.1)</strong></p>
 <p>当一个具有数组类型的左值被转换成了指向数组首个元素的指针，而该数组具有register存储类型时。</p>
 <h2 id="description">Description<a class="headerlink" href="#description" title="link to this position">⚓︎</a></h2>
 <p>Except when it is the operand of the <code>sizeof</code> operator, or typeof operators, or the unary &amp; operator, or is a string literal used to initialize an array, an expression that has type "array of <em>type</em>" is converted to an expression with type "pointer to <em>type</em>" that points to the initial element of the array object and is not an lvalue. If the array object has register storage class, the behavior is undefined. (from ISO/IEC 9899:2023(E) 6.3.2.1, 3)</p>
