@@ -11,7 +11,7 @@ int f()
 int g()
 {
     int variable;
-    printf("%d\n", variable);
+    printf("%d\n", variable); // Undefined behavior! (1)
 }
 
 int main()
