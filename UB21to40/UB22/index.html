@@ -8,25 +8,25 @@
       
       
       
-        <link rel="canonical" href="https://trickeye.github.io/undefinedBehaviors/">
+        <link rel="canonical" href="https://trickeye.github.io/undefinedBehaviors/UB21to40/UB22/">
       
       
+        <link rel="prev" href="../UB21/">
       
-        <link rel="next" href="template/">
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.5">
     
     
       
-        <title>Undefined Behaviors in C</title>
+        <title>UB22 - Undefined Behaviors in C</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.7a7fce14.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7a7fce14.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.a0c5b2b5.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.a0c5b2b5.min.css">
       
       
 
@@ -42,7 +42,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -67,7 +67,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#hello" class="md-skip">
+        <a href="#ub22" class="md-skip">
           Skip to content
         </a>
       
@@ -81,7 +81,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Undefined Behaviors in C" class="md-header__button md-logo" aria-label="Undefined Behaviors in C" data-md-component="logo">
+    <a href="../.." title="Undefined Behaviors in C" class="md-header__button md-logo" aria-label="Undefined Behaviors in C" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -100,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Hello!
+              UB22
             
           </span>
         </div>
@@ -139,12 +139,10 @@
         
   
   
-    
-  
 
 
   <li class="md-tabs__item">
-    <a href="." class="md-tabs__link md-tabs__link--active">
+    <a href="../.." class="md-tabs__link">
       Hello!
     </a>
   </li>
@@ -156,7 +154,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="template/" class="md-tabs__link">
+    <a href="../../template/" class="md-tabs__link">
       Template
     </a>
   </li>
@@ -171,7 +169,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="UB1to20/UB20/" class="md-tabs__link">
+      <a href="../../UB1to20/UB20/" class="md-tabs__link">
         UB1to20
       </a>
     </li>
@@ -181,13 +179,15 @@
         
   
   
+    
+  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="UB21to40/UB21/" class="md-tabs__link">
+      <a href="../UB21/" class="md-tabs__link md-tabs__link--active">
         UB21to40
       </a>
     </li>
@@ -215,7 +215,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Undefined Behaviors in C" class="md-nav__button md-logo" aria-label="Undefined Behaviors in C" data-md-component="logo">
+    <a href="../.." title="Undefined Behaviors in C" class="md-nav__button md-logo" aria-label="Undefined Behaviors in C" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -244,21 +244,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
         Hello!
       </a>
-      
     </li>
   
 
@@ -271,7 +261,7 @@
   
   
     <li class="md-nav__item">
-      <a href="template/" class="md-nav__link">
+      <a href="../../template/" class="md-nav__link">
         Template
       </a>
     </li>
@@ -313,7 +303,7 @@
   
   
     <li class="md-nav__item">
-      <a href="UB1to20/UB20/" class="md-nav__link">
+      <a href="../../UB1to20/UB20/" class="md-nav__link">
         UB20
       </a>
     </li>
@@ -333,14 +323,16 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
       
       
       
@@ -349,7 +341,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_4">
           <span class="md-nav__icon md-icon"></span>
           UB21to40
@@ -362,7 +354,7 @@
   
   
     <li class="md-nav__item">
-      <a href="UB21to40/UB21/" class="md-nav__link">
+      <a href="../UB21/" class="md-nav__link">
         UB21
       </a>
     </li>
@@ -374,11 +366,73 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="UB21to40/UB22/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          UB22
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         UB22
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#definition" class="md-nav__link">
+    Definition
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    Description
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#note" class="md-nav__link">
+    Note
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#advice" class="md-nav__link">
+    Advice
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -410,6 +464,42 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#definition" class="md-nav__link">
+    Definition
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    Description
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#note" class="md-nav__link">
+    Note
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#advice" class="md-nav__link">
+    Advice
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -429,18 +519,20 @@
   
 
 
-<h1 id="hello">Hello!<a class="headerlink" href="#hello" title="link to this position">⚓︎</a></h1>
-<p>Welcome to this blog and <a href="https://github.com/TrickEye/undefinedBehaviors">open GitHub repository</a> for Analysis of Undefined Behaviors in C, work jointly done in Spring, 2023, by a group of students from BUAA, under guidance of <a href="https://wgrong.github.io/">Prof. Wenge Rong</a>.</p>
-<h1 id="contribute-to-this-blog">Contribute to this blog<a class="headerlink" href="#contribute-to-this-blog" title="link to this position">⚓︎</a></h1>
-<ol>
-<li>Make sure you have write permit to this GitHub repository. Contact Cui Yikai and provide your GitHub ID if you don't.</li>
-<li>Clone this repository: <code>git clone git@github.com:TrickEye/undefinedBehaviors.git</code></li>
-<li>Make your contributions. Normally, you will write a <code>UBxx.md</code> file in the directory <code>docs/</code>, describing a specific undefined behavior in the ISO/IEC 9899 Standard. Please refer to <a href="template/">the template page</a> for format specification.</li>
-<li>Push your commit to branch <code>main</code>, or issue a pull request to merge your branch to <code>main</code>.</li>
-<li>Contact Cui Yikai, for GitHub Pages deployment.</li>
-<li>Thank you very much!</li>
-</ol>
-<h1 id="more-coming">More coming!<a class="headerlink" href="#more-coming" title="link to this position">⚓︎</a></h1>
+<h1 id="ub22">UB22<a class="headerlink" href="#ub22" title="link to this position">⚓︎</a></h1>
+<p>Author: Yikai Cui.</p>
+<h2 id="definition">Definition<a class="headerlink" href="#definition" title="link to this position">⚓︎</a></h2>
+<p><strong>An attempt is made to use the value of a void expression, or an implicit or explicit conversion (except to void) is applied to a void expression (6.3.2.2)</strong></p>
+<p>尝试使用一个void表达式的值，或者对void表达式的直接或隐含的向非void之外的类型转换。</p>
+<h2 id="description">Description<a class="headerlink" href="#description" title="link to this position">⚓︎</a></h2>
+<p>The (nonexistent) value of a <em>void expression</em> (an expression that has type <strong>void</strong>) shall not be used in any way, and implicit or explicit conversions (except to void) shall not be applied to such an expression. If an expression of any other type is evaluated as a void expression, its value or designator is discarded. (A void expression is evaluated for its side effects.) (from ISO/IEC 9899:2023(E) 6.3.2.2, 1)</p>
+<p>void表达式（类型为void的表达式）的值（并不存在）不应该以任何形式被使用；并且除非转换到void，不应该对此表达式做现式或隐式的类型转换。如果一个具有其他类型的表达式被作为void表达式求值，它的值会被舍去。</p>
+<h2 id="note">Note<a class="headerlink" href="#note" title="link to this position">⚓︎</a></h2>
+<div class="admonition note">
+<p>Nearly all (Standard conforming) implementations consider using void expression and void expression conversions as error, and will raise error during compilation.</p>
+</div>
+<h2 id="advice">Advice<a class="headerlink" href="#advice" title="link to this position">⚓︎</a></h2>
+<p>Mainstream IDEs provide static code analysis tools that can discover invalid void usage and void conversions. If IDE warns, double check to confirm.</p>
 
 
 
@@ -485,12 +577,12 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "content.code.annotate", "content.tabs.link", "search.suggest", "navigation.instant", "navigation.tracking"], "search": "assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "content.code.annotate", "content.tabs.link", "search.suggest", "navigation.instant", "navigation.tracking"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.407015b8.min.js"></script>
+      <script src="../../assets/javascripts/bundle.407015b8.min.js"></script>
       
-        <script src="javascripts/mathjax.js"></script>
+        <script src="../../javascripts/mathjax.js"></script>
       
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
       
