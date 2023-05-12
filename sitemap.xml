@@ -21,12 +21,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://trickeye.github.io/undefinedBehaviors/UB1to20/UB4/</loc>
+         <lastmod>2023-05-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://trickeye.github.io/undefinedBehaviors/UB21to40/UB21/</loc>
          <lastmod>2023-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://trickeye.github.io/undefinedBehaviors/UB21to40/UB22/</loc>
+         <lastmod>2023-05-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://trickeye.github.io/undefinedBehaviors/UB21to40/UB26/</loc>
          <lastmod>2023-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -42,6 +52,11 @@
     </url>
     <url>
          <loc>https://trickeye.github.io/undefinedBehaviors/UB41to60/UB43/</loc>
+         <lastmod>2023-05-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://trickeye.github.io/undefinedBehaviors/UB41to60/UB48/</loc>
          <lastmod>2023-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
