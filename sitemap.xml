@@ -2,37 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://trickeye.github.io/undefinedBehaviors/</loc>
-         <lastmod>2023-04-28</lastmod>
+         <lastmod>2023-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://trickeye.github.io/undefinedBehaviors/template/</loc>
-         <lastmod>2023-04-28</lastmod>
+         <lastmod>2023-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://trickeye.github.io/undefinedBehaviors/UB1to20/UB20/</loc>
-         <lastmod>2023-04-28</lastmod>
+         <lastmod>2023-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://trickeye.github.io/undefinedBehaviors/UB21to40/UB21/</loc>
-         <lastmod>2023-04-28</lastmod>
+         <lastmod>2023-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://trickeye.github.io/undefinedBehaviors/UB21to40/UB22/</loc>
-         <lastmod>2023-04-28</lastmod>
+         <lastmod>2023-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://trickeye.github.io/undefinedBehaviors/UB41to60/UB41/</loc>
-         <lastmod>2023-04-28</lastmod>
+         <lastmod>2023-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://trickeye.github.io/undefinedBehaviors/UB41to60/UB42/</loc>
-         <lastmod>2023-04-28</lastmod>
+         <lastmod>2023-05-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://trickeye.github.io/undefinedBehaviors/UB41to60/UB43/</loc>
+         <lastmod>2023-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
