@@ -8,20 +8,20 @@
       
       
       
-        <link rel="canonical" href="https://trickeye.github.io/undefinedBehaviors/UB21to40/UB26/">
+        <link rel="canonical" href="https://trickeye.github.io/undefinedBehaviors/UB21to40/UB28/">
       
       
-        <link rel="prev" href="../UB22/">
+        <link rel="prev" href="../UB26/">
       
       
-        <link rel="next" href="../UB28/">
+        <link rel="next" href="../UB29/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.5">
     
     
       
-        <title>UB26 - Undefined Behaviors in C</title>
+        <title>UB28 - Undefined Behaviors in C</title>
       
     
     
@@ -69,7 +69,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#ub26" class="md-skip">
+        <a href="#ub28" class="md-skip">
           Skip to content
         </a>
       
@@ -102,7 +102,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              UB26
+              UB28
             
           </span>
         </div>
@@ -538,6 +538,20 @@
               
   
   
+  
+    <li class="md-nav__item">
+      <a href="../UB26/" class="md-nav__link">
+        UB26
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
     
   
   
@@ -550,12 +564,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          UB26
+          UB28
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        UB26
+        UB28
       </a>
       
         
@@ -574,8 +588,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#content" class="md-nav__link">
-    Content
+  <a href="#definition" class="md-nav__link">
+    Definition
   </a>
   
 </li>
@@ -595,56 +609,16 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#configuration" class="md-nav__link">
-    Configuration
+  <a href="#note" class="md-nav__link">
+    Note
   </a>
-  
-    <nav class="md-nav" aria-label="Configuration">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#configuration-1" class="md-nav__link">
-    Configuration 1.
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#configuration-2" class="md-nav__link">
-    Configuration 2.
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#result-of-different-configuration" class="md-nav__link">
-    Result of Different Configuration
+  <a href="#advice" class="md-nav__link">
+    Advice
   </a>
-  
-    <nav class="md-nav" aria-label="Result of Different Configuration">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#configuration-1_1" class="md-nav__link">
-    Configuration 1.
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#configuration-2_1" class="md-nav__link">
-    Configuration 2.
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -652,20 +626,6 @@
   
 </nav>
       
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../UB28/" class="md-nav__link">
-        UB28
-      </a>
     </li>
   
 
@@ -865,8 +825,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#content" class="md-nav__link">
-    Content
+  <a href="#definition" class="md-nav__link">
+    Definition
   </a>
   
 </li>
@@ -886,56 +846,16 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#configuration" class="md-nav__link">
-    Configuration
+  <a href="#note" class="md-nav__link">
+    Note
   </a>
-  
-    <nav class="md-nav" aria-label="Configuration">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#configuration-1" class="md-nav__link">
-    Configuration 1.
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#configuration-2" class="md-nav__link">
-    Configuration 2.
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#result-of-different-configuration" class="md-nav__link">
-    Result of Different Configuration
+  <a href="#advice" class="md-nav__link">
+    Advice
   </a>
-  
-    <nav class="md-nav" aria-label="Result of Different Configuration">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#configuration-1_1" class="md-nav__link">
-    Configuration 1.
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#configuration-2_1" class="md-nav__link">
-    Configuration 2.
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -960,53 +880,56 @@
   
 
 
-<h1 id="ub26">UB26<a class="headerlink" href="#ub26" title="link to this position">⚓︎</a></h1>
-<p>Author: Tianlin Xiao.</p>
-<h2 id="content">Content<a class="headerlink" href="#content" title="link to this position">⚓︎</a></h2>
-<p><strong>An unmatched ’ or " character is encountered on a logical source line during tokenization (6.4)</strong></p>
+<h1 id="ub28">UB28<a class="headerlink" href="#ub28" title="link to this position">⚓︎</a></h1>
+<p>Author: Yikai Cui.</p>
+<h2 id="definition">Definition<a class="headerlink" href="#definition" title="link to this position">⚓︎</a></h2>
+<p><strong>A universal character name in an identifier does not designate a character whose encoding falls into one of the specified ranges (6.4.2.1).</strong></p>
+<p>当一个标识符中的通用字符名不在指定的范围内时。</p>
 <h2 id="description">Description<a class="headerlink" href="#description" title="link to this position">⚓︎</a></h2>
-<p>当在一个逻辑行中出现了未匹配的<code>'</code>和<code>"</code>字符串时，结果未定义。逻辑行：可以使用反斜杠符号<code>\</code>来连接物理行以创建逻辑行。当一行代码太长无法适合单个物理行时，可以使用反斜杠符号将其连接到下一行，以形成一个逻辑行。例如：</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span>
+<p>A universal character name is something like <code>\uXXXX</code> or <code>\UXXXXXXXX</code>. It can be used to represent a character that is not in the basic source character set. </p>
+<p>一个通用字符名是类似于<code>\uXXXX</code>或者<code>\UXXXXXXXX</code>的形式。它可用于表示不在基本源字符集中的字符。</p>
+<p>The standard specifies that a universal character name shall not designate a code point where the hexadecimal value is:</p>
+<ul>
+<li>less than 00A0 other than 0024($), 0040(@), or 0060(`)</li>
+<li>in the range D800 through DFFF inclusive</li>
+<li>greater than 10FFFF</li>
+</ul>
+<p>标准指出，通用字符名不应指定以下十六进制值的范围：</p>
+<ul>
+<li>小于00A0，除了0024($), 0040(@), 或者0060(`)</li>
+<li>在D800到DFFF之间</li>
+<li>大于10FFFF</li>
+</ul>
+<p>The code points less than 00A0 can be represented in the basic source character set, so they are not allowed to be represented by universal character names. Here is an example where the use of universal character names in basic source character set can be confusing: suppose a lexer meets an identifier with universal character name <code class="highlight"><span class="n">\u0022</span></code> (where <code>'\u0022'</code> is the value, or code point, of  <code>"</code>), it may treat the universal character name as <code class="highlight"><span class="sc">&#39;&quot;&#39;</span></code>, which may cause compilation errors.</p>
+<p>小于00A0的码点可以在基本源字符集中表示，因此不允许用通用字符名表示。下面是一个通用字符名在基本源字符集中使用时可能会引起混淆的例子：假设词法分析遇到一个带有通用字符名的标识符<code class="highlight"><span class="n">\u0022</span></code>（其中<code>'\u0022'</code>是<code>"</code>），它可能会将通用字符名视为<code class="highlight"><span class="s">&quot;</span></code>，这可能会导致编译错误。</p>
+<p>The code points in the range D800 through DFFF are reserved for surrogate pairs in UTF-16, so they are not allowed to be represented by universal character names. </p>
+<p>D800到DFFF之间的范围用于UTF-16中的代理对，是无效的范围，因此不允许用通用字符名表示。</p>
+<p>The code points greater than 10FFFF are not valid Unicode code points (unused unicode plains), so they are not allowed to be represented by universal character names.</p>
+<p>大于10FFFF的范围是无效的Unicode码点（未使用的Unicode平面），因此不允许用通用字符名表示。</p>
+<h2 id="code">Code<a class="headerlink" href="#code" title="link to this position">⚓︎</a></h2>
+<div class="highlight"><span class="filename">UB28.c</span><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="n">c</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">15</span><span class="p">,</span><span class="w"> </span><span class="n">d</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">20</span><span class="p">;</span>
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">sum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">+</span><span class="w"> </span>\
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">              </span><span class="n">c</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">d</span><span class="p">;</span>
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Sum = %d&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">sum</span><span class="p">);</span>
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="p">}</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">a\u0024</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="c1">// not an undefined behavior! (1)</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">b\u0022</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span><span class="w"> </span><span class="c1">// undefined behavior! (2)</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">a$</span><span class="p">;</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="p">}</span>
 </code></pre></div>
-<h2 id="code">Code<a class="headerlink" href="#code" title="link to this position">⚓︎</a></h2>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="cp">#include</span><span class="cpf">&lt;stdio.h&gt;</span>
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;string.h</span>
-<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>
-<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>
-<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="cpf">int main()</span>
-<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="cpf">{</span>
-<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="cpf">    printf(&quot;</span><span class="c1">Hello&quot;);</span>
-<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
-<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="p">}</span>
-</code></pre></div>
-<h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="link to this position">⚓︎</a></h2>
-<h4 id="configuration-1">Configuration 1.<a class="headerlink" href="#configuration-1" title="link to this position">⚓︎</a></h4>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>tcc version 0.9.26 (x86-64 Win64)
-</code></pre></div>
-<h4 id="configuration-2">Configuration 2.<a class="headerlink" href="#configuration-2" title="link to this position">⚓︎</a></h4>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>gcc version 8.1.0 
-<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>Target: x86_64-w64-mingw32
-</code></pre></div>
-<h2 id="result-of-different-configuration">Result of Different Configuration<a class="headerlink" href="#result-of-different-configuration" title="link to this position">⚓︎</a></h2>
-<h4 id="configuration-1_1">Configuration 1.<a class="headerlink" href="#configuration-1_1" title="link to this position">⚓︎</a></h4>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>- Compilation successful
-<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>- Hello
-</code></pre></div>
-<h4 id="configuration-2_1">Configuration 2.<a class="headerlink" href="#configuration-2_1" title="link to this position">⚓︎</a></h4>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>main.c:2:10: warning: missing terminating &quot; character
-<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a> #include &quot;string.h
-<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>          ^
-<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>main.c:2:10: error: #include expects &quot;FILENAME&quot; or &lt;FILENAME&gt;
-<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a> #include &quot;string.h
-</code></pre></div>
+<ol>
+<li>Not an undefined behavior. Here <code>\u0024</code> falls into the range of the universal character names, therefore is not an undefined behavior. The variable can even be used by <code>a$</code> (see the return statement)</li>
+<li>Undefined behavior! Here <code>\u0022</code> does not fall into any the range of the universal character names, therefore is an undefined behavior.</li>
+</ol>
+<p><a href="../UB28.c">View source</a></p>
+<h2 id="note">Note<a class="headerlink" href="#note" title="link to this position">⚓︎</a></h2>
+<div class="admonition note">
+<p>Nearly all (Standard conforming) implementations raise errors on invalid universal character names during compilation.</p>
+<p>几乎所有（符合标准的）编译器在编译期间对无效的通用字符名都会报错。</p>
+</div>
+<h2 id="advice">Advice<a class="headerlink" href="#advice" title="link to this position">⚓︎</a></h2>
+<p>Using universal character names in identifiers is not recommended, not only because the source file may not be successfully compiled in earlier compilers conforming C99 or earlier, but also because using characters that are not in the basic character set might reduce the readablity of the source code. </p>
+<p>不推荐在标识符中使用通用字符名。不仅因为源文件可能无法在符合C99或更早版本的编译器中成功编译，还因为因为使用不在基本字符集中的字符可能会降低源代码的可读性。</p>
+<p>The advice is simple: just use English. If you must use them, make sure they are valid. </p>
+<p>建议很简单：只使用英文编写代码。如果必须使用通用字符名，请确保它们是有效的。</p>
 
 
 
